@@ -1,51 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    
-}
+
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-    /* padding: 60px 22px 64x 23px; */
     color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
 }
 
 .card {
     background-color: hsl(216, 50%, 16%);
     width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding: 60px 24px 60px 24px;
-    border-radius: 13px;
-    
-     
-     
+    border-radius: 13px;  
 }
 
-/* .image {
-    /* width: 270px; 
-     padding: 15px; 
-} */
 
 .image {
-    /* border-radius: 13px; */
-    /* width: 300px; */
     padding: 15px;
     border: deeppink;
 }
 
 .mainImag {
     width: 300px;
-    /* padding: 15px; */
     border: deeppink;
-    border-radius: 13px;
-            
+    border-radius: 13px;       
 }
 
 h1 {
@@ -67,24 +50,20 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    font-size: 16px;
-          
+    font-size: 16px;   
 }
 
 .price {
     color: hsl(178, 100%, 50%);
-    
 }
 
 .days {
     color: hsl(215, 51%, 70%);
-    
 }
 
 .creator {
     margin: auto;
     width: 278px;
-    /* height: 71px; */
     padding: 16px;
     border-top-style: solid;
     border-color: hsl(215, 51%, 70%);
